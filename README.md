@@ -18,6 +18,9 @@ The website uses HTML for structure, CSS for styling, and JavaScript for functio
 Users can add new products via a modal form, which gets appended to the product section. A Chart.js graph simulates live market trends, updating periodically.
 Dark mode toggles the entire theme using a CSS class switch. All user interactions are handled through event listeners, and core features like price change percentage and A/B testing are computed in real time.
 
+How to run the code(launch the website): 
+you can use websites like replit and paste the attaached codes to run the website.
+
 contributions:
 rudra tapan sharma,
 gitesh taklikar,
