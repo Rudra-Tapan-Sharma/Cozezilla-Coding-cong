@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PriceFlow Dashboard</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  
+  <header>
+    <div id="product-section" class="product-section"></div>
+
+    <div id="analyticsSummary" class="analytics-box"></div>
+    <button id="runABTest">Run A/B Test</button>
+
+    <button id="darkModeToggle">🌙 Toggle Dark Mode</button>
+
+    <h1>PriceFlow Dashboard</h1>
+    <button id="openFormBtn">+ Add Product</button>
+  </header>
+
+  <main>
+    <section class="products">
+      <!-- Products will appear here -->
+    </section>
+
+    <section class="charts">
+      <canvas id="clothingMarketChart" height="100"></canvas>
+    </section>
+  </main>
+
+  <!-- Modal -->
+
+
+  <div id="productModal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <form id="productForm">
+        <input type="number" id="inventoryCount" placeholder="Inventory Count" required />
+        <input type="number" id="competitorPrice" placeholder="Competitor Price (₹)" required />
+
+        <h2>Add Product</h2>
+        <input type="text" id="productName" placeholder="Product Name" required />
+        <input type="text" id="productSKU" placeholder="SKU" required />
+        <input type="number" id="basePrice" placeholder="Base Price" required />
+        <input type="number" id="currentPrice" placeholder="Current Price" required />
+        <input type="file" id="productImage" accept="image/*" required />
+        <button type="submit">Add Product</button>
+      </form>
+      
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
