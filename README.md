@@ -19,8 +19,8 @@ Users can add new products via a modal form, which gets appended to the product 
 Dark mode toggles the entire theme using a CSS class switch. All user interactions are handled through event listeners, and core features like price change percentage and A/B testing are computed in real time.
 
 contributions:
-rudra tapan sharma
-gitesh taklikar
-amber ali saiyed 
-sarthak karan
-vikramaditya singh manral
+rudra tapan sharma,
+gitesh taklikar,
+amber ali saiyed, 
+sarthak karan,
+vikramaditya singh manral,
